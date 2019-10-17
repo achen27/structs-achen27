@@ -7,8 +7,6 @@
 struct food example(){
     struct food f1; //creates struct
 
-    srand(time(NULL)); //random sequence
-
     int r = rand() % 4; //get random number
     if (r == 0){ //choosing name
       f1.name = "hamburger";
